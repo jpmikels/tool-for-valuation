@@ -1,0 +1,18 @@
+# GCP Configuration for AI Features
+# Copy this file and fill in your GCP project details
+
+# Your GCP Project ID
+project_id: "YOUR_GCP_PROJECT_ID"
+
+# Document AI Processor ID
+# Create a Document AI processor in GCP Console:
+# 1. Go to: https://console.cloud.google.com/ai/document-ai
+# 2. Create a processor for "Form Parser" or "General Form"
+# 3. Copy the processor ID here
+processor_id: "YOUR_PROCESSOR_ID"
+
+# GCP Location (e.g., 'us', 'eu', 'asia')
+location: "us"
+
+# Enable Document AI (true/false)
+use_ai: true
